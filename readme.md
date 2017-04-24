@@ -15,8 +15,8 @@ A library for nodejs
 
 ... and other.
 
-Github: https://github.com/thuychi
-See example in: https://github.com/thuychi/kem/tree/master/document
+* Github: https://github.com/thuychi
+* See example in: https://github.com/thuychi/kem/tree/master/document
 
 
 * Download and build:
@@ -27,4 +27,4 @@ See example in: https://github.com/thuychi/kem/tree/master/document
 * Source: https://github.com/thuychi/kem-electron
 
 
-Facebook: https://facebook.com/VuTruHoaBinh
+* Facebook: https://facebook.com/VuTruHoaBinh
