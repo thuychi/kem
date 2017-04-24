@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title> {{ this.title }} </title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	
+	<!-- using other file -->
+	{{ use('folder.filename') }}
+
+	<!-- using variable -->
+	<section>
+		<div>Hello {{ name }}</div>
+		<div>Hello {{ this.name }}</div>
+	</section>
+
+	<!-- using for loop -->
+	{{ var array = [1,2,3,4,5]; }}
+	{{ for(var i = 0, n = array.length; i < n; i++){ }}
+		{{ if(array[i]===3){ }} Three {{ } }}
+		<li>{{ i }}. {{ array[i] }}</li>
+	{{  }}
+
+	<!-- using javascript library -->
+	{{ var hash = require('kem/lib/hash'); }}
+	<div>pass: {{hash.generate('any-text')}}</div>
+</body>
+</html>
